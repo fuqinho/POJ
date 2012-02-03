@@ -43,94 +43,78 @@ const double PI  = acos(-1.0);
 int dx[4] = {0, 0, -1, 1};
 int dy[4] = {-1, 1, 0, 0};
 
-struct State {
-    VVI maze;
-    PII pos;
-    int step;
-    void print() {
-        cerr << "===== " << step << " =====" << endl;
-        REP(i, maze.size()) {
-            REP(j, maze[i].size()) {
-                if (i == pos.first && j == pos.second)
-                    cerr << "*";
-                else
-                    cerr << maze[i][j];
-            }
-            cerr << endl;
-        }
+PII getNext(VVI& maze, int x, int y, int dx, int dy) {
+  bool isFirst = true;
+  while (true) {
+    x += dx;
+    y += dy;
+    if (x < 0 || x >= maze[0].size() || y < 0 || y >= maze.size()) return PII(-1, -1);
+    if (maze[y][x] == 3) return PII(x, y);
+    if (maze[y][x] == 1) {
+      if (isFirst) return PII(-1, -1);
+      else return PII(x, y);
     }
-};
+    isFirst = false;
+  }
+  return PII(-1, -1);
+}
 
-State getNextState(State state, int dy, int dx) {
-    state.step++;
-    int y = state.pos.first;
-    int x = state.pos.second;
-    bool immediately = true;
-    while (true) {
-        y += dy;
-        x += dx;
-        if (y < 0 || y >= state.maze.size() || 
-                x < 0 || x >= state.maze[0].size()) {
-            state.pos = PII(-1, -1);
-            return state;
-        }
-        if (state.maze[y][x] == 3) {
-            state.pos = PII(y, x);
-            return state;
-        }
-        if (state.maze[y][x] == 1) {
-            if (immediately) { 
-                state.pos = PII(-1, -1);
-            } else {
-                state.maze[y][x] = 0;
-                state.pos = PII(y - dy, x - dx);
-            }
-            return state;
-        }
-        immediately = false;
+int dfs(VVI& maze, int x, int y, int depth) {
+  /*
+  dump(x);
+  dump(y);
+  REP(i,maze.size()) {
+    REP(j,maze[i].size()) {
+      cerr << maze[i][j];
     }
-    return state;
+    cerr << endl;
+  }
+  */
+
+  if (depth >= 10) return -1;
+  if (maze[y][x] == 3) return depth;
+
+  int minStep = -1; 
+  REP(i, 4) {
+    PII next = getNext(maze, x, y, dx[i], dy[i]);
+    int nx = next.first;
+    int ny = next.second;
+    if (nx != -1 && ny != -1) {
+      if (maze[ny][nx] == 1) {
+        maze[ny][nx] = 0;
+        int step = dfs(maze, nx-dx[i], ny-dy[i], depth+1);
+        if (step != -1) {
+          if (minStep == -1 || minStep > step) minStep = step;
+        }
+        maze[ny][nx] = 1;
+      }
+      if (maze[ny][nx] == 3) {
+        if (minStep == -1 || minStep > (depth + 1)) minStep = depth + 1;
+      }
+    }
+  }
+  return minStep;
 }
 
 int solve(VVI& maze) {
-    int h = maze.size();
-    int w = maze[0].size();
-    PII start, goal, current;
-    REP(i, h) REP(j,w) {
-        if (maze[i][j] == 2) start = PII(i, j);
-        if (maze[i][j] == 3) goal = PII(i, j);
-    }
-    State state;
-    state.maze = maze;
-    state.pos = start;
-    state.step = 0;
-    queue<State> q;
-    q.push(state);
-    while (!q.empty()) {
-        State s = q.front(); q.pop();
-        if (s.step >= 10) break;
-        REP(i, 4) {
-            State ns = getNextState(s, dy[i], dx[i]);
-            if (ns.pos == goal) return ns.step;
-            if (ns.pos != PII(-1, -1)) {
-                q.push(ns);
-                //ns.print();
-            }
-        }
-    }
-    return -1;
+  PII start;
+  REP(i, maze.size()) REP(j,maze[i].size()) {
+    if (maze[i][j] == 2) start = PII(j, i);
+  }
+  return dfs(maze, start.first, start.second, 0);
 }
 
 int main() {
-    int w, h;
-    while (true) {
-        cin >> w >> h;
-        if (w == 0 && h == 0) break;
-        VVI maze(h, VI(w));
-        REP(i, h) REP(j, w) cin >> maze[i][j];
+  int w, h;
+  while (true) {
+    //cerr << "#########################################" << endl;
+    cin >> w >> h;
+    if (w == 0 && h == 0) break;
+    VVI maze(h, VI(w));
+    REP(i, h) REP(j, w) cin >> maze[i][j];
 
-        int answer = solve(maze);
-        cout << answer << endl;
-    }
+    int answer = solve(maze);
+    cout << answer << endl;
+  }
 }
 
