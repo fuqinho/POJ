@@ -1,0 +1,79 @@
+#include <iostream>
+#include <sstream>
+#include <vector>
+#include <map>
+#include <set>
+#include <queue>
+#include <stack>
+#include <algorithm>
+#include <cstdio>
+#include <cmath>
+using namespace std;
+
+typedef vector<int> VI;
+typedef vector<VI> VVI;
+typedef vector<string> VS;
+typedef pair<int, int> PII;
+typedef long long LL;
+#define ALL(a)  (a).begin(),(a).end()
+#define REP(i,n) for(int i=0;i<(n);++i)
+const double EPS = 1e-10;
+const double PI  = acos(-1.0);
+#define dump(x) cerr << "  (L" << __LINE__ << ") " << #x << " = " << (x) << endl;
+#define dumpv(x) cerr << "  (L" << __LINE__ << ") " << #x << " = "; REP(q,(x).size()) cerr << (x)[q] << " "; cerr << endl;
+template<typename T1, typename T2>
+ostream& operator<<(ostream& s, const pair<T1, T2>& d) {return s << "(" << d.first << "," << d.second << ")";}
+
+const int MAX_N = 500000;
+const LL INF = 100000000000000;
+
+
+// 直線f_jのxにおける値
+LL f(int j, int x, const VI& dp, const VI& S) {
+  return -a[j] * x + dp[j] - S[j] + a[j] * j;
+
+}
+
+int solve(int n, int k, VI& a) {
+  vector<LL> dp(n+1, INF);
+  vector<LL> S(n+1);
+
+  // 和の計算
+  S[0] = 0;
+  REP(i, n) {
+    S[i+1] = S[i] + a[i];
+  }
+
+  // デックの初期化
+  deque<LL> deq;
+
+  for (int i = k; i <= n; i++) {
+    if (i - k >= k) {
+      // 末尾から最小値を取る可能性がなくなったものを取り除く
+      
+      // デックにi-kを追加
+       
+    }
+
+    // 先頭が最小値で無ければ取り除く
+
+    // dp更新
+    dp[i] = S[i] + f(deq.pop_front(), i, dp, S);
+  }
+
+  
+  return 0;
+}
+
+int main() {
+  int T; scanf("%d", &T);
+  REP(t, T) {
+    int n, k; scanf("%d %d", &n, &k);
+    VI a(n);
+    REP(i, n) scanf("%d", &a[i]);
+
+    int ans = solve(n, k, a);
+    printf("%d\n", ans);
+  }
+}
+

@@ -1,0 +1,532 @@
+Door: (0, 2)
+Person: (1, 1)
+Person: (1, 2)
+Person: (1, 3)
+Door: (2, 0)
+Person: (2, 1)
+Person: (2, 2)
+Person: (2, 3)
+Person: (3, 1)
+Person: (3, 2)
+Person: (3, 3)
+Door: (4, 3)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 0)
+  Edge: (Door: 0, t: 3) -> (P: 0)
+  Edge: (Door: 0, t: 4) -> (P: 0)
+  Edge: (Door: 0, t: 5) -> (P: 0)
+  Edge: (Door: 0, t: 6) -> (P: 0)
+  Edge: (Door: 0, t: 7) -> (P: 0)
+  Edge: (Door: 0, t: 8) -> (P: 0)
+  Edge: (Door: 0, t: 9) -> (P: 0)
+  Edge: (Door: 0, t: 10) -> (P: 0)
+  Edge: (Door: 0, t: 11) -> (P: 0)
+  Edge: (Door: 0, t: 12) -> (P: 0)
+Distance: 1
+  Edge: (Door: 0, t: 1) -> (P: 1)
+  Edge: (Door: 0, t: 2) -> (P: 1)
+  Edge: (Door: 0, t: 3) -> (P: 1)
+  Edge: (Door: 0, t: 4) -> (P: 1)
+  Edge: (Door: 0, t: 5) -> (P: 1)
+  Edge: (Door: 0, t: 6) -> (P: 1)
+  Edge: (Door: 0, t: 7) -> (P: 1)
+  Edge: (Door: 0, t: 8) -> (P: 1)
+  Edge: (Door: 0, t: 9) -> (P: 1)
+  Edge: (Door: 0, t: 10) -> (P: 1)
+  Edge: (Door: 0, t: 11) -> (P: 1)
+  Edge: (Door: 0, t: 12) -> (P: 1)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 2)
+  Edge: (Door: 0, t: 3) -> (P: 2)
+  Edge: (Door: 0, t: 4) -> (P: 2)
+  Edge: (Door: 0, t: 5) -> (P: 2)
+  Edge: (Door: 0, t: 6) -> (P: 2)
+  Edge: (Door: 0, t: 7) -> (P: 2)
+  Edge: (Door: 0, t: 8) -> (P: 2)
+  Edge: (Door: 0, t: 9) -> (P: 2)
+  Edge: (Door: 0, t: 10) -> (P: 2)
+  Edge: (Door: 0, t: 11) -> (P: 2)
+  Edge: (Door: 0, t: 12) -> (P: 2)
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 3)
+  Edge: (Door: 0, t: 4) -> (P: 3)
+  Edge: (Door: 0, t: 5) -> (P: 3)
+  Edge: (Door: 0, t: 6) -> (P: 3)
+  Edge: (Door: 0, t: 7) -> (P: 3)
+  Edge: (Door: 0, t: 8) -> (P: 3)
+  Edge: (Door: 0, t: 9) -> (P: 3)
+  Edge: (Door: 0, t: 10) -> (P: 3)
+  Edge: (Door: 0, t: 11) -> (P: 3)
+  Edge: (Door: 0, t: 12) -> (P: 3)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 4)
+  Edge: (Door: 0, t: 3) -> (P: 4)
+  Edge: (Door: 0, t: 4) -> (P: 4)
+  Edge: (Door: 0, t: 5) -> (P: 4)
+  Edge: (Door: 0, t: 6) -> (P: 4)
+  Edge: (Door: 0, t: 7) -> (P: 4)
+  Edge: (Door: 0, t: 8) -> (P: 4)
+  Edge: (Door: 0, t: 9) -> (P: 4)
+  Edge: (Door: 0, t: 10) -> (P: 4)
+  Edge: (Door: 0, t: 11) -> (P: 4)
+  Edge: (Door: 0, t: 12) -> (P: 4)
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 5)
+  Edge: (Door: 0, t: 4) -> (P: 5)
+  Edge: (Door: 0, t: 5) -> (P: 5)
+  Edge: (Door: 0, t: 6) -> (P: 5)
+  Edge: (Door: 0, t: 7) -> (P: 5)
+  Edge: (Door: 0, t: 8) -> (P: 5)
+  Edge: (Door: 0, t: 9) -> (P: 5)
+  Edge: (Door: 0, t: 10) -> (P: 5)
+  Edge: (Door: 0, t: 11) -> (P: 5)
+  Edge: (Door: 0, t: 12) -> (P: 5)
+Distance: 4
+  Edge: (Door: 0, t: 4) -> (P: 6)
+  Edge: (Door: 0, t: 5) -> (P: 6)
+  Edge: (Door: 0, t: 6) -> (P: 6)
+  Edge: (Door: 0, t: 7) -> (P: 6)
+  Edge: (Door: 0, t: 8) -> (P: 6)
+  Edge: (Door: 0, t: 9) -> (P: 6)
+  Edge: (Door: 0, t: 10) -> (P: 6)
+  Edge: (Door: 0, t: 11) -> (P: 6)
+  Edge: (Door: 0, t: 12) -> (P: 6)
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 7)
+  Edge: (Door: 0, t: 4) -> (P: 7)
+  Edge: (Door: 0, t: 5) -> (P: 7)
+  Edge: (Door: 0, t: 6) -> (P: 7)
+  Edge: (Door: 0, t: 7) -> (P: 7)
+  Edge: (Door: 0, t: 8) -> (P: 7)
+  Edge: (Door: 0, t: 9) -> (P: 7)
+  Edge: (Door: 0, t: 10) -> (P: 7)
+  Edge: (Door: 0, t: 11) -> (P: 7)
+  Edge: (Door: 0, t: 12) -> (P: 7)
+Distance: 4
+  Edge: (Door: 0, t: 4) -> (P: 8)
+  Edge: (Door: 0, t: 5) -> (P: 8)
+  Edge: (Door: 0, t: 6) -> (P: 8)
+  Edge: (Door: 0, t: 7) -> (P: 8)
+  Edge: (Door: 0, t: 8) -> (P: 8)
+  Edge: (Door: 0, t: 9) -> (P: 8)
+  Edge: (Door: 0, t: 10) -> (P: 8)
+  Edge: (Door: 0, t: 11) -> (P: 8)
+  Edge: (Door: 0, t: 12) -> (P: 8)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 0)
+  Edge: (Door: 1, t: 3) -> (P: 0)
+  Edge: (Door: 1, t: 4) -> (P: 0)
+  Edge: (Door: 1, t: 5) -> (P: 0)
+  Edge: (Door: 1, t: 6) -> (P: 0)
+  Edge: (Door: 1, t: 7) -> (P: 0)
+  Edge: (Door: 1, t: 8) -> (P: 0)
+  Edge: (Door: 1, t: 9) -> (P: 0)
+  Edge: (Door: 1, t: 10) -> (P: 0)
+  Edge: (Door: 1, t: 11) -> (P: 0)
+  Edge: (Door: 1, t: 12) -> (P: 0)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 1)
+  Edge: (Door: 1, t: 4) -> (P: 1)
+  Edge: (Door: 1, t: 5) -> (P: 1)
+  Edge: (Door: 1, t: 6) -> (P: 1)
+  Edge: (Door: 1, t: 7) -> (P: 1)
+  Edge: (Door: 1, t: 8) -> (P: 1)
+  Edge: (Door: 1, t: 9) -> (P: 1)
+  Edge: (Door: 1, t: 10) -> (P: 1)
+  Edge: (Door: 1, t: 11) -> (P: 1)
+  Edge: (Door: 1, t: 12) -> (P: 1)
+Distance: 4
+  Edge: (Door: 1, t: 4) -> (P: 2)
+  Edge: (Door: 1, t: 5) -> (P: 2)
+  Edge: (Door: 1, t: 6) -> (P: 2)
+  Edge: (Door: 1, t: 7) -> (P: 2)
+  Edge: (Door: 1, t: 8) -> (P: 2)
+  Edge: (Door: 1, t: 9) -> (P: 2)
+  Edge: (Door: 1, t: 10) -> (P: 2)
+  Edge: (Door: 1, t: 11) -> (P: 2)
+  Edge: (Door: 1, t: 12) -> (P: 2)
+Distance: 1
+  Edge: (Door: 1, t: 1) -> (P: 3)
+  Edge: (Door: 1, t: 2) -> (P: 3)
+  Edge: (Door: 1, t: 3) -> (P: 3)
+  Edge: (Door: 1, t: 4) -> (P: 3)
+  Edge: (Door: 1, t: 5) -> (P: 3)
+  Edge: (Door: 1, t: 6) -> (P: 3)
+  Edge: (Door: 1, t: 7) -> (P: 3)
+  Edge: (Door: 1, t: 8) -> (P: 3)
+  Edge: (Door: 1, t: 9) -> (P: 3)
+  Edge: (Door: 1, t: 10) -> (P: 3)
+  Edge: (Door: 1, t: 11) -> (P: 3)
+  Edge: (Door: 1, t: 12) -> (P: 3)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 4)
+  Edge: (Door: 1, t: 3) -> (P: 4)
+  Edge: (Door: 1, t: 4) -> (P: 4)
+  Edge: (Door: 1, t: 5) -> (P: 4)
+  Edge: (Door: 1, t: 6) -> (P: 4)
+  Edge: (Door: 1, t: 7) -> (P: 4)
+  Edge: (Door: 1, t: 8) -> (P: 4)
+  Edge: (Door: 1, t: 9) -> (P: 4)
+  Edge: (Door: 1, t: 10) -> (P: 4)
+  Edge: (Door: 1, t: 11) -> (P: 4)
+  Edge: (Door: 1, t: 12) -> (P: 4)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 5)
+  Edge: (Door: 1, t: 4) -> (P: 5)
+  Edge: (Door: 1, t: 5) -> (P: 5)
+  Edge: (Door: 1, t: 6) -> (P: 5)
+  Edge: (Door: 1, t: 7) -> (P: 5)
+  Edge: (Door: 1, t: 8) -> (P: 5)
+  Edge: (Door: 1, t: 9) -> (P: 5)
+  Edge: (Door: 1, t: 10) -> (P: 5)
+  Edge: (Door: 1, t: 11) -> (P: 5)
+  Edge: (Door: 1, t: 12) -> (P: 5)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 6)
+  Edge: (Door: 1, t: 3) -> (P: 6)
+  Edge: (Door: 1, t: 4) -> (P: 6)
+  Edge: (Door: 1, t: 5) -> (P: 6)
+  Edge: (Door: 1, t: 6) -> (P: 6)
+  Edge: (Door: 1, t: 7) -> (P: 6)
+  Edge: (Door: 1, t: 8) -> (P: 6)
+  Edge: (Door: 1, t: 9) -> (P: 6)
+  Edge: (Door: 1, t: 10) -> (P: 6)
+  Edge: (Door: 1, t: 11) -> (P: 6)
+  Edge: (Door: 1, t: 12) -> (P: 6)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 7)
+  Edge: (Door: 1, t: 4) -> (P: 7)
+  Edge: (Door: 1, t: 5) -> (P: 7)
+  Edge: (Door: 1, t: 6) -> (P: 7)
+  Edge: (Door: 1, t: 7) -> (P: 7)
+  Edge: (Door: 1, t: 8) -> (P: 7)
+  Edge: (Door: 1, t: 9) -> (P: 7)
+  Edge: (Door: 1, t: 10) -> (P: 7)
+  Edge: (Door: 1, t: 11) -> (P: 7)
+  Edge: (Door: 1, t: 12) -> (P: 7)
+Distance: 4
+  Edge: (Door: 1, t: 4) -> (P: 8)
+  Edge: (Door: 1, t: 5) -> (P: 8)
+  Edge: (Door: 1, t: 6) -> (P: 8)
+  Edge: (Door: 1, t: 7) -> (P: 8)
+  Edge: (Door: 1, t: 8) -> (P: 8)
+  Edge: (Door: 1, t: 9) -> (P: 8)
+  Edge: (Door: 1, t: 10) -> (P: 8)
+  Edge: (Door: 1, t: 11) -> (P: 8)
+  Edge: (Door: 1, t: 12) -> (P: 8)
+Distance: 5
+  Edge: (Door: 2, t: 5) -> (P: 0)
+  Edge: (Door: 2, t: 6) -> (P: 0)
+  Edge: (Door: 2, t: 7) -> (P: 0)
+  Edge: (Door: 2, t: 8) -> (P: 0)
+  Edge: (Door: 2, t: 9) -> (P: 0)
+  Edge: (Door: 2, t: 10) -> (P: 0)
+  Edge: (Door: 2, t: 11) -> (P: 0)
+  Edge: (Door: 2, t: 12) -> (P: 0)
+Distance: 4
+  Edge: (Door: 2, t: 4) -> (P: 1)
+  Edge: (Door: 2, t: 5) -> (P: 1)
+  Edge: (Door: 2, t: 6) -> (P: 1)
+  Edge: (Door: 2, t: 7) -> (P: 1)
+  Edge: (Door: 2, t: 8) -> (P: 1)
+  Edge: (Door: 2, t: 9) -> (P: 1)
+  Edge: (Door: 2, t: 10) -> (P: 1)
+  Edge: (Door: 2, t: 11) -> (P: 1)
+  Edge: (Door: 2, t: 12) -> (P: 1)
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 2)
+  Edge: (Door: 2, t: 4) -> (P: 2)
+  Edge: (Door: 2, t: 5) -> (P: 2)
+  Edge: (Door: 2, t: 6) -> (P: 2)
+  Edge: (Door: 2, t: 7) -> (P: 2)
+  Edge: (Door: 2, t: 8) -> (P: 2)
+  Edge: (Door: 2, t: 9) -> (P: 2)
+  Edge: (Door: 2, t: 10) -> (P: 2)
+  Edge: (Door: 2, t: 11) -> (P: 2)
+  Edge: (Door: 2, t: 12) -> (P: 2)
+Distance: 4
+  Edge: (Door: 2, t: 4) -> (P: 3)
+  Edge: (Door: 2, t: 5) -> (P: 3)
+  Edge: (Door: 2, t: 6) -> (P: 3)
+  Edge: (Door: 2, t: 7) -> (P: 3)
+  Edge: (Door: 2, t: 8) -> (P: 3)
+  Edge: (Door: 2, t: 9) -> (P: 3)
+  Edge: (Door: 2, t: 10) -> (P: 3)
+  Edge: (Door: 2, t: 11) -> (P: 3)
+  Edge: (Door: 2, t: 12) -> (P: 3)
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 4)
+  Edge: (Door: 2, t: 4) -> (P: 4)
+  Edge: (Door: 2, t: 5) -> (P: 4)
+  Edge: (Door: 2, t: 6) -> (P: 4)
+  Edge: (Door: 2, t: 7) -> (P: 4)
+  Edge: (Door: 2, t: 8) -> (P: 4)
+  Edge: (Door: 2, t: 9) -> (P: 4)
+  Edge: (Door: 2, t: 10) -> (P: 4)
+  Edge: (Door: 2, t: 11) -> (P: 4)
+  Edge: (Door: 2, t: 12) -> (P: 4)
+Distance: 2
+  Edge: (Door: 2, t: 2) -> (P: 5)
+  Edge: (Door: 2, t: 3) -> (P: 5)
+  Edge: (Door: 2, t: 4) -> (P: 5)
+  Edge: (Door: 2, t: 5) -> (P: 5)
+  Edge: (Door: 2, t: 6) -> (P: 5)
+  Edge: (Door: 2, t: 7) -> (P: 5)
+  Edge: (Door: 2, t: 8) -> (P: 5)
+  Edge: (Door: 2, t: 9) -> (P: 5)
+  Edge: (Door: 2, t: 10) -> (P: 5)
+  Edge: (Door: 2, t: 11) -> (P: 5)
+  Edge: (Door: 2, t: 12) -> (P: 5)
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 6)
+  Edge: (Door: 2, t: 4) -> (P: 6)
+  Edge: (Door: 2, t: 5) -> (P: 6)
+  Edge: (Door: 2, t: 6) -> (P: 6)
+  Edge: (Door: 2, t: 7) -> (P: 6)
+  Edge: (Door: 2, t: 8) -> (P: 6)
+  Edge: (Door: 2, t: 9) -> (P: 6)
+  Edge: (Door: 2, t: 10) -> (P: 6)
+  Edge: (Door: 2, t: 11) -> (P: 6)
+  Edge: (Door: 2, t: 12) -> (P: 6)
+Distance: 2
+  Edge: (Door: 2, t: 2) -> (P: 7)
+  Edge: (Door: 2, t: 3) -> (P: 7)
+  Edge: (Door: 2, t: 4) -> (P: 7)
+  Edge: (Door: 2, t: 5) -> (P: 7)
+  Edge: (Door: 2, t: 6) -> (P: 7)
+  Edge: (Door: 2, t: 7) -> (P: 7)
+  Edge: (Door: 2, t: 8) -> (P: 7)
+  Edge: (Door: 2, t: 9) -> (P: 7)
+  Edge: (Door: 2, t: 10) -> (P: 7)
+  Edge: (Door: 2, t: 11) -> (P: 7)
+  Edge: (Door: 2, t: 12) -> (P: 7)
+Distance: 1
+  Edge: (Door: 2, t: 1) -> (P: 8)
+  Edge: (Door: 2, t: 2) -> (P: 8)
+  Edge: (Door: 2, t: 3) -> (P: 8)
+  Edge: (Door: 2, t: 4) -> (P: 8)
+  Edge: (Door: 2, t: 5) -> (P: 8)
+  Edge: (Door: 2, t: 6) -> (P: 8)
+  Edge: (Door: 2, t: 7) -> (P: 8)
+  Edge: (Door: 2, t: 8) -> (P: 8)
+  Edge: (Door: 2, t: 9) -> (P: 8)
+  Edge: (Door: 2, t: 10) -> (P: 8)
+  Edge: (Door: 2, t: 11) -> (P: 8)
+  Edge: (Door: 2, t: 12) -> (P: 8)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 0)
+  Edge: (Door: 0, t: 3) -> (P: 0)
+  Edge: (Door: 0, t: 4) -> (P: 0)
+  Edge: (Door: 0, t: 5) -> (P: 0)
+Distance: 1
+  Edge: (Door: 0, t: 1) -> (P: 1)
+  Edge: (Door: 0, t: 2) -> (P: 1)
+  Edge: (Door: 0, t: 3) -> (P: 1)
+  Edge: (Door: 0, t: 4) -> (P: 1)
+  Edge: (Door: 0, t: 5) -> (P: 1)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 2)
+  Edge: (Door: 0, t: 3) -> (P: 2)
+  Edge: (Door: 0, t: 4) -> (P: 2)
+  Edge: (Door: 0, t: 5) -> (P: 2)
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 3)
+  Edge: (Door: 0, t: 4) -> (P: 3)
+  Edge: (Door: 0, t: 5) -> (P: 3)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 4)
+  Edge: (Door: 0, t: 3) -> (P: 4)
+  Edge: (Door: 0, t: 4) -> (P: 4)
+  Edge: (Door: 0, t: 5) -> (P: 4)
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 5)
+  Edge: (Door: 0, t: 4) -> (P: 5)
+  Edge: (Door: 0, t: 5) -> (P: 5)
+Distance: 4
+  Edge: (Door: 0, t: 4) -> (P: 6)
+  Edge: (Door: 0, t: 5) -> (P: 6)
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 7)
+  Edge: (Door: 0, t: 4) -> (P: 7)
+  Edge: (Door: 0, t: 5) -> (P: 7)
+Distance: 4
+  Edge: (Door: 0, t: 4) -> (P: 8)
+  Edge: (Door: 0, t: 5) -> (P: 8)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 0)
+  Edge: (Door: 1, t: 3) -> (P: 0)
+  Edge: (Door: 1, t: 4) -> (P: 0)
+  Edge: (Door: 1, t: 5) -> (P: 0)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 1)
+  Edge: (Door: 1, t: 4) -> (P: 1)
+  Edge: (Door: 1, t: 5) -> (P: 1)
+Distance: 4
+  Edge: (Door: 1, t: 4) -> (P: 2)
+  Edge: (Door: 1, t: 5) -> (P: 2)
+Distance: 1
+  Edge: (Door: 1, t: 1) -> (P: 3)
+  Edge: (Door: 1, t: 2) -> (P: 3)
+  Edge: (Door: 1, t: 3) -> (P: 3)
+  Edge: (Door: 1, t: 4) -> (P: 3)
+  Edge: (Door: 1, t: 5) -> (P: 3)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 4)
+  Edge: (Door: 1, t: 3) -> (P: 4)
+  Edge: (Door: 1, t: 4) -> (P: 4)
+  Edge: (Door: 1, t: 5) -> (P: 4)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 5)
+  Edge: (Door: 1, t: 4) -> (P: 5)
+  Edge: (Door: 1, t: 5) -> (P: 5)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 6)
+  Edge: (Door: 1, t: 3) -> (P: 6)
+  Edge: (Door: 1, t: 4) -> (P: 6)
+  Edge: (Door: 1, t: 5) -> (P: 6)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 7)
+  Edge: (Door: 1, t: 4) -> (P: 7)
+  Edge: (Door: 1, t: 5) -> (P: 7)
+Distance: 4
+  Edge: (Door: 1, t: 4) -> (P: 8)
+  Edge: (Door: 1, t: 5) -> (P: 8)
+Distance: 5
+  Edge: (Door: 2, t: 5) -> (P: 0)
+Distance: 4
+  Edge: (Door: 2, t: 4) -> (P: 1)
+  Edge: (Door: 2, t: 5) -> (P: 1)
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 2)
+  Edge: (Door: 2, t: 4) -> (P: 2)
+  Edge: (Door: 2, t: 5) -> (P: 2)
+Distance: 4
+  Edge: (Door: 2, t: 4) -> (P: 3)
+  Edge: (Door: 2, t: 5) -> (P: 3)
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 4)
+  Edge: (Door: 2, t: 4) -> (P: 4)
+  Edge: (Door: 2, t: 5) -> (P: 4)
+Distance: 2
+  Edge: (Door: 2, t: 2) -> (P: 5)
+  Edge: (Door: 2, t: 3) -> (P: 5)
+  Edge: (Door: 2, t: 4) -> (P: 5)
+  Edge: (Door: 2, t: 5) -> (P: 5)
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 6)
+  Edge: (Door: 2, t: 4) -> (P: 6)
+  Edge: (Door: 2, t: 5) -> (P: 6)
+Distance: 2
+  Edge: (Door: 2, t: 2) -> (P: 7)
+  Edge: (Door: 2, t: 3) -> (P: 7)
+  Edge: (Door: 2, t: 4) -> (P: 7)
+  Edge: (Door: 2, t: 5) -> (P: 7)
+Distance: 1
+  Edge: (Door: 2, t: 1) -> (P: 8)
+  Edge: (Door: 2, t: 2) -> (P: 8)
+  Edge: (Door: 2, t: 3) -> (P: 8)
+  Edge: (Door: 2, t: 4) -> (P: 8)
+  Edge: (Door: 2, t: 5) -> (P: 8)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 0)
+Distance: 1
+  Edge: (Door: 0, t: 1) -> (P: 1)
+  Edge: (Door: 0, t: 2) -> (P: 1)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 2)
+Distance: 3
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 4)
+Distance: 3
+Distance: 4
+Distance: 3
+Distance: 4
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 0)
+Distance: 3
+Distance: 4
+Distance: 1
+  Edge: (Door: 1, t: 1) -> (P: 3)
+  Edge: (Door: 1, t: 2) -> (P: 3)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 4)
+Distance: 3
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 6)
+Distance: 3
+Distance: 4
+Distance: 5
+Distance: 4
+Distance: 3
+Distance: 4
+Distance: 3
+Distance: 2
+  Edge: (Door: 2, t: 2) -> (P: 5)
+Distance: 3
+Distance: 2
+  Edge: (Door: 2, t: 2) -> (P: 7)
+Distance: 1
+  Edge: (Door: 2, t: 1) -> (P: 8)
+  Edge: (Door: 2, t: 2) -> (P: 8)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 0)
+  Edge: (Door: 0, t: 3) -> (P: 0)
+Distance: 1
+  Edge: (Door: 0, t: 1) -> (P: 1)
+  Edge: (Door: 0, t: 2) -> (P: 1)
+  Edge: (Door: 0, t: 3) -> (P: 1)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 2)
+  Edge: (Door: 0, t: 3) -> (P: 2)
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 3)
+Distance: 2
+  Edge: (Door: 0, t: 2) -> (P: 4)
+  Edge: (Door: 0, t: 3) -> (P: 4)
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 5)
+Distance: 4
+Distance: 3
+  Edge: (Door: 0, t: 3) -> (P: 7)
+Distance: 4
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 0)
+  Edge: (Door: 1, t: 3) -> (P: 0)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 1)
+Distance: 4
+Distance: 1
+  Edge: (Door: 1, t: 1) -> (P: 3)
+  Edge: (Door: 1, t: 2) -> (P: 3)
+  Edge: (Door: 1, t: 3) -> (P: 3)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 4)
+  Edge: (Door: 1, t: 3) -> (P: 4)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 5)
+Distance: 2
+  Edge: (Door: 1, t: 2) -> (P: 6)
+  Edge: (Door: 1, t: 3) -> (P: 6)
+Distance: 3
+  Edge: (Door: 1, t: 3) -> (P: 7)
+Distance: 4
+Distance: 5
+Distance: 4
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 2)
+Distance: 4
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 4)
+Distance: 2
+  Edge: (Door: 2, t: 2) -> (P: 5)
+  Edge: (Door: 2, t: 3) -> (P: 5)
+Distance: 3
+  Edge: (Door: 2, t: 3) -> (P: 6)
+Distance: 2
+  Edge: (Door: 2, t: 2) -> (P: 7)
+  Edge: (Door: 2, t: 3) -> (P: 7)
+Distance: 1
+  Edge: (Door: 2, t: 1) -> (P: 8)
+  Edge: (Door: 2, t: 2) -> (P: 8)
+  Edge: (Door: 2, t: 3) -> (P: 8)
+3
