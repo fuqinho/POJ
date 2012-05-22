@@ -1,46 +1,49 @@
-#include <iostream>
-#include <sstream>
+// Limit: 65536K / 1000ms
+// Used :   640K /   47ms
 #include <vector>
-#include <list>
-#include <map>
-#include <set>
 #include <queue>
-#include <deque>
-#include <stack>
-#include <bitset>
 #include <algorithm>
-#include <functional>
-#include <numeric>
-#include <utility>
-#include <iomanip>
 #include <cstdio>
-#include <cmath>
-#include <cstring>
-#include <string>
 using namespace std;
 
-typedef vector<int> VI;
-typedef vector<VI> VVI;
-typedef vector<string> VS;
 typedef pair<int, int> PII;
-typedef long long LL;
-#define ALL(a)  (a).begin(),(a).end()
-#define RALL(a) (a).rbegin(), (a).rend()
-#define FOR(i,a,b) for(int i=(a);i<(b);++i)
-#define REP(i,n)  FOR(i,0,n)
-const double EPS = 1e-10;
-const double PI  = acos(-1.0);
-#define dump(x)  cerr << #x << " = " << (x) << endl;
-#define dumpv(x) cerr << #x << " = "; REP(q,(x).size()) cerr << (x)[q] << " "; cerr << endl;
-template<typename T1, typename T2>
-ostream& operator<<(ostream& s, const pair<T1, T2>& d){return s<<"("<<d.first<<","<<d.second<<")";}
+
+int solve(int C, int L, vector<PII>& cows, vector<PII>& lotions) {
+  // cowはminSPFの昇順に、lotionはSPFの昇順にソートしておく
+  sort(cows.begin(), cows.end());
+  sort(lotions.begin(), lotions.end());
+
+  int queuedCows = 0;
+  priority_queue<int, vector<int>, greater<int> > que;
+
+  int res = 0;
+  // 各lotionについて…
+  for (int i = 0; i < lotions.size(); i++) {
+    // minSPFが注目しているlotionのSPF以下になっている牛のmaxSPFをqueueに追加
+    while (queuedCows < C && cows[queuedCows].first <= lotions[i].first) {
+      que.push(cows[queuedCows].second);
+      queuedCows++;
+    }
+    // queueからmaxSPFを値が小さい順に取り出し、それが注目しているlotionのSPF値以上であれば
+    // lotionを使用する
+    while (!que.empty() && lotions[i].second != 0) {
+      int maxVal = que.top(); que.pop();
+      if (maxVal >= lotions[i].first) {
+        res++;
+        lotions[i].second--;
+      }
+    }
+  }
+  return res;
+}
 
 int main() {
   int C, L; scanf("%d %d", &C, &L);
-  vector<int> minSPF(C), maxSPF(C);
-  REP(i, C) scanf("%d %d", &minSPF[i], &maxSPF[i]);
-  vector<int> SPF(L), cover(L);
-  REP(i, L) scanf("%d %d", &SPF[i], &cover[i]);
+  vector<PII> cows(C);
+  for (int i = 0; i < C; i++) scanf("%d %d", &cows[i].first, &cows[i].second);
+  vector<PII> lotions(L);
+  for (int i = 0; i < L; i++) scanf("%d %d", &lotions[i].first, &lotions[i].second);
+
+  int ans = solve(C, L, cows, lotions);
+  printf("%d\n", ans);
 }
-
-
