@@ -134,9 +134,13 @@ void factorize(LL n, map<LL, int>& factors) {
       }
     }
     if (n != 1) {
-      LL d = pollard_rho(n, 20);
-      factorize(d, factors);
-      factorize(n/d, factors);
+      if (isPrime(n)) {
+        factors[n]++;
+      } else {
+        LL d = pollard_rho(n, 1);
+        factorize(d, factors);
+        factorize(n/d, factors);
+      }
     }
   }
 }
