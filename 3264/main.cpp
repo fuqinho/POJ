@@ -5,20 +5,10 @@
 using namespace std;
 
 typedef vector<int> VI;
-typedef vector<VI> VVI;
-typedef pair<int, int> PII;
-typedef long long LL;
 #define REP(i,n) for(int i=0;i<(n);++i)
-#define REP_R(i,n) for(int i=(n)-1;i>=0;--i)
-
-#define dump(x) cerr << "  (L" << __LINE__ << ") " << #x << " = " << (x) << endl;
-#define dumpv(x) cerr << "  (L" << __LINE__ << ") " << #x << " = "; REP(q,(x).size()) cerr << (x)[q] << " "; cerr << endl;
-template<typename T1, typename T2>
-ostream& operator<<(ostream& s, const pair<T1, T2>& d) {return s << "(" << d.first << "," << d.second << ")";}
 
 const int MAX_N = 50000;
 const int MAX_Q = 200000;
-
 const int INF = 1000000000;
 
 // data structure for range minimum query

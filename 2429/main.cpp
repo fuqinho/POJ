@@ -104,6 +104,7 @@ const int MAX_PRIME = 200000;
 vector<int> primes;
 vector<bool> is_prime;
 
+// 小さい素数(MAX_PRIMEまで)は先に用意しとく
 void init_primes() {
   is_prime = vector<bool>(MAX_PRIME + 1, true);
   is_prime[0] = is_prime[1] = false;
@@ -117,11 +118,13 @@ void init_primes() {
   }
 }
 
+// 素数かどうか判定。大きければミラーラビンを使う
 bool isPrime(LL n) {
   if (n <= MAX_PRIME) return is_prime[n];
   else return miller_rabin(n, 20);
 }
 
+// 素因数分解する。小さい数は用意した素数で試し割り、大きければポラード・ロー
 void factorize(LL n, map<LL, int>& factors) {
   if (isPrime(n)) {
     factors[n]++;
